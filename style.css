@@ -645,6 +645,86 @@ section h2::after{
     font-size:14px;
 }
 
+/* ================= ACHIEVEMENT ================= */
+.achievement-card{
+    display:flex;
+    align-items:center;
+    gap:25px;
+    padding:30px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(16,36,58,.90),
+            rgba(9,25,42,.80)
+        );
+    border:1px solid var(--border);
+    border-radius:20px;
+    box-shadow:0 20px 60px rgba(0,0,0,.18);
+    transition:.4s;
+}
+.achievement-card:hover{
+    transform:translateY(-6px);
+    border-color:rgba(56,189,248,.35);
+    box-shadow:
+        0 25px 70px rgba(0,0,0,.3),
+        0 0 35px rgba(56,189,248,.08);
+}
+.achievement-icon{
+    min-width:70px;
+    height:70px;
+    display:grid;
+    place-items:center;
+    border-radius:16px;
+    background:linear-gradient(
+        135deg,
+        var(--accent),
+        var(--accent2)
+    );
+    color:#06111d;
+    font-size:30px;
+    box-shadow:0 10px 30px rgba(56,189,248,.20);
+}
+.achievement-content{
+    flex:1;
+}
+.achievement-date{
+    color:var(--accent);
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:.8px;
+    text-transform:uppercase;
+}
+
+.achievement-content h3{
+    font-size:24px;
+    margin:5px 0 8px;
+}
+
+.achievement-content p{
+    color:var(--muted);
+    margin:0;
+    max-width:850px;
+}
+/* Achievement mobile */
+@media(max-width:600px){
+
+    .achievement-card{
+        flex-direction:column;
+        align-items:flex-start;
+        padding:25px;
+    }
+
+    .achievement-icon{
+        width:60px;
+        min-width:60px;
+        height:60px;
+        font-size:25px;
+    }
+
+    .achievement-content h3{
+        font-size:21px;
+    }
+}
 /* ================= CONTACT ================= */
 
 .contact{
