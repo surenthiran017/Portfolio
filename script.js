@@ -4,7 +4,6 @@ const navLinks = document.querySelectorAll('nav a');
 // Mobile menu toggle
 menu.addEventListener('click', () => {
 navbar.classList.toggle('nav-open');
-```
 const isOpen = navbar.classList.contains('nav-open');
 
 menu.setAttribute('aria-expanded', isOpen);
@@ -25,7 +24,10 @@ navbar.classList.remove('nav-open');
     menu.setAttribute('aria-expanded', 'false');
     menu.setAttribute('aria-label', 'Open menu');
 });
-```
 });
 // Automatically update copyright year
-document.getElementById('year').textContent = new Date().getFullYear();
+// Update footer year
+const year = document.getElementById('year');
+if (year) {
+    year.textContent = new Date().getFullYear();
+}
