@@ -1,249 +1,740 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Surenthiran V - Data Analytics and Process Professional Portfolio">
-  <title>Surenthiran V | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-   <!-- Font Awesome Icons -->
-  <link rel="stylesheet"
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Surenthiran V - Data Analytics and Process Professional Portfolio">
+    <title>Surenthiran V | Portfolio</title>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+
 <body>
-  <header class="navbar">
-    <a class="logo" href="#home">
-        <img src="assets/logo.png" alt="SV Logo"></a>
-    <button class="menu" aria-label="Open menu" aria-expanded="false">
-        ☰
-    </button>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#education">Education</a>
-        <a href="#achievement">Achievement</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
+    <!-- ================= NAVBAR ================= -->
 
-  <main>
-    <section id="home" class="hero">
-      <div class="hero-content">
-        <p class="eyebrow">EXPLORE TO MY JOURNEY</p>
-        <h1>Hi, I'm <span>Surenthiran V</span></h1>
-        <h2>Process Associate • Data Analytics • Quality</h2>
-        <p class="lead">I work with product data, quality validation, Excel, Power BI and business processes to improve accuracy and operational efficiency.</p>
-        <div class="buttons">
-          <a class="btn primary" href="#projects">View My Work</a>
-          <a class="btn secondary" href="assets/Resume.pdf" download>Download Resume</a>
-        </div>
-      </div>
-      <div class="hero-card">
-        <div class="avatar">SV</div>
-        <h3>Surenthiran V</h3>
-        <p>Data & Process Professional</p>
-        <div class="mini-stats">
-          <div><strong>BE</strong><small>CSE</small></div>
-          <div><strong>Excel</strong><small>Analytics</small></div>
-          <div><strong>Power BI</strong><small>Dashboard</small></div>
-        </div>
-      </div>
-    </section>
+    <header class="navbar">
+        <a class="logo" href="#home">
+            <img src="assets/logo.png" alt="SV Logo">
+        </a>
+        <button class="menu"
+            aria-label="Open menu"
+            aria-expanded="false">
+            ☰
+        </button>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#achievement">Achievement</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <!-- ================= HOME ================= -->
 
-    <section id="about" class="section">
-      <p class="eyebrow">ABOUT ME</p>
-      <h2>Turning data into <span>useful insights</span></h2>
-      <div class="about-grid">
-        <div>
-          <p> I'm a focused and detail-oriented professional with a strong ability to work with data, understand processes and maintain high
-standards of accuracy.</p>
-          <p>Experienced in data analysis, data visualization, reviewing information, resolving inconsistencies and
-completing tasks efficiently. Known for being adaptable, organized and willing to learn and adapt to new technologies while
-contributing effectively to organizational goals.</p>
-        </div>
-        <div class="info-card">
-          <p><b>Location</b><span>Erode, Tamil Nadu</span></p>
-          <p><b>Degree</b><span>BE – Computer Science Engineering</span></p>
-          <p><b>College</b><span>Nandha College of Technology</span></p>
-          <p><b>CGPA</b><span>7.96</span></p>
-        </div>
-      </div>
-    </section>
+        <section id="home" class="hero">
 
-   <section id="experience" class="section alt">
-    <div class="section-heading">
-        <div class="section-icon">
-            <i class="fa-solid fa-briefcase"></i>
-        </div>
-        <div>
-            <p class="eyebrow">EXPERIENCE</p>
-            <h2>Professional <span>journey</span></h2>
-        </div>
-    </div>
-    <div class="timeline">
-        <article class="timeline-item">
-          <div class="dot"></div>
-          <div class="timeline-card">
-            <span class="date">Jul 2025 – Present</span>
-            <h3>Process Associate</h3>
-            <h4>Mahendra Next Wealth IT India Pvt Ltd</h4>
-            <ul>
-              <li>Performed product matching and data validation between external websites and Amazon using MTurk.</li>
-              <li>Identified and resolved product-data discrepancies to maintain accuracy.</li>
-              <li>Conducted quality checks and data verification for catalog management.</li>
-              <li>Created and formatted advertisement creatives using Canva according to client requirements.</li>
-              <li>Worked as a DHL Quality Analyst, supporting quality checks, discrepancy analysis and process efficiency.</li>
-            </ul>
-          </div>
-        </article>
-      </div>
-    </section>
+            <!-- Particle / Network Background -->
+            <div id="particles-js"></div>
+            <!-- Hero Content -->
+            <div class="hero-content">
+                <p class="eyebrow">
+                    EXPLORE MY JOURNEY
+                </p>
 
-    <section id="skills" class="section">
-      <p class="eyebrow">SKILLS</p>
-      <h2>Tools & <span>technologies</span></h2>
-      <div class="skill-grid">
-        <div class="skill-card"><b>Java</b><small>Programming</small></div>
-        <div class="skill-card"><b>SQL</b><small>Database</small></div>
-        <div class="skill-card"><b>Microsoft Excel</b><small>Data Analysis</small></div>
-        <div class="skill-card"><b>Power BI</b><small>Data Visualization</small></div>
-        <div class="skill-card"><b>Canva</b><small>Ad Creatives</small></div>
-        <div class="skill-card"><b>Data Validation</b><small>Quality</small></div>
-        <div class="skill-card"><b>MTurk</b><small>Product Matching</small></div>
-      </div>
-    </section>
-   <section id="projects" class="section alt">
-    <p class="eyebrow">PROJECTS</p>
-    <h2>Selected <span>projects</span></h2>
-<div class="project-grid">
-    <article class="project-card">
-        <div class="project-image">
-            <img 
-                src="assets/Sudoku.png" 
-                alt="Sudoku Puzzle"
-            >
-        </div>
-        <div class="project-body">
-            <h3>Sudoku Puzzle</h3>
-            <p>
-                Created a Sudoku Puzzle by using backtracking search algorithm to solve constraint satisfaction
-problems, such as Sudoku puzzle.This puzzle had developed by Java Programming.
-            </p>
-            <div class="tags">
-                <span>Java</span>
-                <span>Algorithm</span>
-                <span>Data Visualization</span>
+                <h1>
+                    Hi, I'm <span>Surenthiran V</span>
+                </h1>
+
+                <h2>
+                    Process Associate • Data Analytics • Quality
+                </h2>
+                <p class="lead">
+                    I work with product data, quality validation,
+                    Excel, Power BI and business processes to improve
+                    accuracy and operational efficiency.
+                </p>
+                <!-- Buttons -->
+
+                <div class="buttons">
+
+                    <a class="btn primary" href="#projects">
+                        View My Work
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+                    <a class="btn secondary"
+                        href="assets/Resume.pdf"
+                        download>
+                        <i class="fa-solid fa-download"></i>
+                        Download Resume
+                    </a>
+
+                </div>
+                <!-- Social Links -->
+                <div class="social-links">
+
+                    <a href="https://www.linkedin.com/in/surenthiran-v-658022291/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn">
+
+                        <i class="fa-brands fa-linkedin-in"></i>
+
+                    </a>
+                    <a href="https://github.com/surenthiran017"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="GitHub">
+
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="mailto:surenthiran017@gmail.com"
+                        aria-label="Email">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                    </a>
+
+                </div>
+
             </div>
-    </article>
-        <article class="project-card">
-          <div class="project-image">🔥</div>
-          <div class="project-body">
-            <h3>Delivery Share</h3>
-            <p>Online Food Delivery System through web application.</p>
-            <div class="tags"><span>Python</span><span>ML</span><span>Scikit-learn</span></div>
-          </div>
-        </article>
-        <article class="project-card">
-          <div class="project-image">❤️</div>
-          <div class="project-body">
-            <h3>Sales Dashboard</h3>
-            <p>Visualize sales data to identify trends, top products, and regional performance</p>
-            <div class="tags"><span>Power BI</span><span>Excel</span><span>Data Visualization</span></div>
-          </div>
-        </article>
-        <article class="project-card">
-          <div class="project-image">💰</div>
-          <div class="project-body">
-            <h3>IOT Project</h3>
-            <p> I had created a IOT project named “Delivery bot” for transportation of things on the Stairs and also help as
-Disabled people.</p>
-            <div class="tags"><span>Excel</span><span>Python</span><span>Analytics</span></div>
-          </div>
-        </article>
-      </div>
-    </section>
+            <!-- ================= AVATAR ================= -->
+            <div class="hero-avatar">
+                <div class="avatar-glow"></div>
 
-    <section id="education" class="section">
-      <p class="eyebrow">EDUCATION & CERTIFICATIONS</p>
-      <h2>My <span>background</span></h2>
-      <div class="education-grid">
-        <div class="info-card">
-          <span class="date">2021 – 2025</span>
-          <h3>BE Computer Science & Engineering</h3>
-          <p>Nandha College of Technology</p>
-          <b>CGPA: 7.96</b>
-        </div>
-        <div class="info-card">
-          <span class="date">2020 – 2021</span>
-          <h3>HSC – Computer Science</h3>
-          <p>Higher Secondary Education</p>
-          <b>81.15%</b>
-        </div>
-        <div class="info-card">
-          <h3>Certifications</h3>
-          <p>Java Programming – Great Learning Academy</p>
-          <p>Data Analysis using Excel – Great Learning Academy</p>
-          <p>SQL – HackerRank</p>
-        </div>
-      </div>
-    </section>
-<!-- ================= ACHIEVEMENT ================= -->
-<section id="achievement" class="section alt">
-    <p class="eyebrow">ACHIEVEMENT</p>
-    <h2>Professional <span>Recognition</span></h2>
-    <div class="achievement-card">
-        <div class="achievement-icon">
-            <i class="fa-solid fa-award"></i>
-        </div>
-        <div class="achievement-content">
-            <span class="achievement-date">Q21 FY2026</span>
-            <h3>Performance Recognition</h3>
+                <div class="avatar-circle">
+
+                    <img src="assets/avatar.png"
+                        alt="Surenthiran V">
+                </div>
+                <!-- Floating Badge -->
+
+                <div class="avatar-badge">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+            </div>
+        </section>
+        <!-- ================= ABOUT ================= -->
+
+        <section id="about" class="section">
+
+            <div class="section-heading">
+
+                <div class="section-icon">
+
+                    <i class="fa-solid fa-user"></i>
+
+                </div>
+
+                <div>
+
+                    <p class="eyebrow">
+                        ABOUT ME
+                    </p>
+
+                    <h2>
+                        Turning data into
+                        <span>useful insights</span>
+                    </h2>
+
+                </div>
+
+            </div>
+            <div class="about-grid">
+
+                <div>
+
+                    <p>
+                        I'm a focused and detail-oriented professional
+                        with a strong ability to work with data,
+                        understand processes and maintain high standards
+                        of accuracy.
+                    </p>
+
+                    <p>
+                        Experienced in data analysis, data visualization,
+                        reviewing information, resolving inconsistencies
+                        and completing tasks efficiently. Known for being
+                        adaptable, organized and willing to learn and adapt
+                        to new technologies while contributing effectively
+                        to organizational goals.
+                    </p>
+
+                </div>
+                <div class="info-card">
+
+                    <p>
+                        <b>Location</b>
+                        <span>Erode, Tamil Nadu</span>
+                    </p>
+
+                    <p>
+                        <b>Degree</b>
+                        <span>BE – Computer Science Engineering</span>
+                    </p>
+
+                    <p>
+                        <b>College</b>
+                        <span>Nandha College of Technology</span>
+                    </p>
+
+                    <p>
+                        <b>CGPA</b>
+                        <span>7.96</span>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- ================= EXPERIENCE ================= -->
+
+        <section id="experience" class="section alt">
+
+            <div class="section-heading">
+
+                <div class="section-icon">
+
+                    <i class="fa-solid fa-briefcase"></i>
+
+                </div>
+
+                <div>
+
+                    <p class="eyebrow">
+                        EXPERIENCE
+                    </p>
+
+                    <h2>
+                        Professional
+                        <span>journey</span>
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline">
+
+                <article class="timeline-item">
+
+                    <div class="dot"></div>
+
+
+                    <div class="timeline-card">
+
+                        <span class="date">
+                            Jul 2025 – Present
+                        </span>
+
+                        <h3>
+                            Process Associate
+                        </h3>
+
+                        <h4>
+                            Mahendra Next Wealth IT India Pvt Ltd
+                        </h4>
+
+
+                        <ul>
+
+                            <li>
+                                Performed product matching and data
+                                validation between external websites
+                                and Amazon using MTurk.
+                            </li>
+
+                            <li>
+                                Identified and resolved product-data
+                                discrepancies to maintain accuracy.
+                            </li>
+
+                            <li>
+                                Conducted quality checks and data
+                                verification for catalog management.
+                            </li>
+
+                            <li>
+                                Created and formatted advertisement
+                                creatives using Canva according to
+                                client requirements.
+                            </li>
+
+                            <li>
+                                Worked as a DHL Quality Analyst,
+                                supporting quality checks, discrepancy
+                                analysis and process efficiency.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+        <!-- ================= SKILLS ================= -->
+
+        <section id="skills" class="section">
+
+            <div class="section-heading">
+
+                <div class="section-icon">
+
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+
+                </div>
+
+                <div>
+
+                    <p class="eyebrow">
+                        SKILLS
+                    </p>
+
+                    <h2>
+                        Tools &
+                        <span>technologies</span>
+                    </h2>
+
+                </div>
+
+            </div>
+            <div class="skill-grid">
+
+                <div class="skill-card">
+                    <i class="fa-brands fa-java"></i>
+                    <b>Java</b>
+                    <small>
+                        Programming
+                    </small>
+                </div>
+                <div class="skill-card">
+
+                    <i class="fa-solid fa-database"></i>
+
+                    <b>SQL</b>
+
+                    <small>
+                        Database
+                    </small>
+                </div>
+                <div class="skill-card">
+
+                    <i class="fa-solid fa-file-excel"></i>
+
+                    <b>Microsoft Excel</b>
+
+                    <small>
+                        Data Analysis
+                    </small>
+                </div>
+                <div class="skill-card">
+
+                    <i class="fa-solid fa-chart-column"></i>
+
+                    <b>Power BI</b>
+
+                    <small>
+                        Data Visualization
+                    </small>
+
+                </div>
+                <div class="skill-card">
+
+                    <i class="fa-solid fa-palette"></i>
+
+                    <b>Canva</b>
+
+                    <small>
+                        Ad Creatives
+                    </small>
+
+                </div>
+                <div class="skill-card">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    <b>Data Validation</b>
+
+                    <small>
+                        Quality
+                    </small>
+
+                </div>
+                <div class="skill-card">
+
+                    <i class="fa-solid fa-boxes-stacked"></i>
+
+                    <b>MTurk</b>
+
+                    <small>
+                        Product Matching
+                    </small>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- ================= PROJECTS ================= -->
+
+        <section id="projects" class="section alt">
+            <div class="section-heading">
+                <div class="section-icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div>
+
+                    <p class="eyebrow">
+                        PROJECTS
+                    </p>
+
+                    <h2>
+                        Selected
+                        <span>projects</span>
+                    </h2>
+
+                </div>
+
+            </div>
+            <div class="project-grid">
+                <!-- Sudoku -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+
+                        <img src="assets/Sudoku.png"
+                            alt="Sudoku Puzzle">
+                    </div>
+                    <div class="project-body">
+                        <h3>
+                            Sudoku Puzzle
+                        </h3>
+
+                        <p>
+                            Created a Sudoku Puzzle using a
+                            backtracking search algorithm to solve
+                            constraint satisfaction problems such
+                            as Sudoku. The puzzle was developed
+                            using Java programming.
+                        </p>
+                        <div class="tags">
+                            <span>Java</span>
+                            <span>Algorithm</span>
+                            <span>Data Visualization</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+                <!-- Delivery Share -->
+                <article class="project-card">
+
+                    <div class="project-image">
+                        🔥
+                    </div>
+                    <div class="project-body">
+
+                        <h3>
+                            Delivery Share
+                        </h3>
+
+                        <p>
+                            Online Food Delivery System through
+                            web application.
+                        </p>
+                        <div class="tags">
+
+                            <span>Python</span>
+                            <span>ML</span>
+                            <span>Scikit-learn</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+                <!-- Sales Dashboard -->
+                <article class="project-card">
+
+                    <div class="project-image">
+                        📊
+                    </div>
+                    <div class="project-body">
+
+                        <h3>
+                            Sales Dashboard
+                        </h3>
+
+                        <p>
+                            Visualize sales data to identify trends,
+                            top products and regional performance.
+                        </p>
+                        <div class="tags">
+                            <span>Power BI</span>
+                            <span>Excel</span>
+                            <span>Data Visualization</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+                <!-- IOT -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        🤖
+                    </div>
+                    <div class="project-body">
+
+                        <h3>
+                            IOT Project
+                        </h3>
+                        <p>
+                            Created an IoT project named
+                            "Delivery Bot" for transporting
+                            things on stairs and assisting
+                            people with disabilities.
+                        </p>
+                        <div class="tags">
+
+                            <span>IoT</span>
+                            <span>Python</span>
+                            <span>Analytics</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+        <!-- ================= EDUCATION ================= -->
+
+        <section id="education" class="section">
+
+            <div class="section-heading">
+
+                <div class="section-icon">
+
+                    <i class="fa-solid fa-graduation-cap"></i>
+
+                </div>
+
+                <div>
+
+                    <p class="eyebrow">
+                        EDUCATION & CERTIFICATIONS
+                    </p>
+
+                    <h2>
+                        My
+                        <span>background</span>
+                    </h2>
+
+                </div>
+
+            </div>
+            <div class="education-grid">
+                <div class="info-card">
+
+                    <span class="date">
+                        2021 – 2025
+                    </span>
+
+                    <h3>
+                        BE Computer Science & Engineering
+                    </h3>
+
+                    <p>
+                        Nandha College of Technology
+                    </p>
+
+                    <b>
+                        CGPA: 7.96
+                    </b>
+
+                </div>
+                <div class="info-card">
+
+                    <span class="date">
+                        2020 – 2021
+                    </span>
+
+                    <h3>
+                        HSC – Computer Science
+                    </h3>
+                    <p>
+                        Higher Secondary Education
+                    </p>
+                    <b>
+                        81.15%
+                    </b>
+                </div>
+                <div class="info-card">
+
+                    <h3>
+                        Certifications
+                    </h3>
+
+                    <p>
+                        Java Programming –
+                        Great Learning Academy
+                    </p>
+
+                    <p>
+                        Data Analysis using Excel –
+                        Great Learning Academy
+                    </p>
+
+                    <p>
+                        SQL – HackerRank
+                    </p>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- ================= ACHIEVEMENT ================= -->
+
+        <section id="achievement" class="section alt">
+
+            <div class="section-heading">
+
+                <div class="section-icon">
+
+                    <i class="fa-solid fa-award"></i>
+
+                </div>
+
+                <div>
+
+                    <p class="eyebrow">
+                        ACHIEVEMENT
+                    </p>
+
+                    <h2>
+                        Professional
+                        <span>Recognition</span>
+                    </h2>
+
+                </div>
+
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-icon">
+
+                    <i class="fa-solid fa-trophy"></i>
+
+                </div>
+                <div class="achievement-content">
+
+                    <span class="achievement-date">
+                        Q21 FY2026
+                    </span>
+
+                    <h3>
+                        Performance Recognition
+                    </h3>
+
+                    <p>
+                        Received the Performance Recognition at
+                        Mahendra Next Wealth for consistently
+                        delivering high-quality performance,
+                        maintaining accuracy standards, and
+                        contributing to organizational objectives.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- ================= CONTACT ================= -->
+
+        <section id="contact" class="section contact">
+
+            <div class="section-heading">
+
+                <div class="section-icon">
+
+                    <i class="fa-solid fa-paper-plane"></i>
+                </div>
+                <div>
+
+                    <p class="eyebrow">
+                        CONTACT
+                    </p>
+
+                    <h2>
+                        Let's
+                        <span>connect</span>
+                    </h2>
+
+                </div>
+
+            </div>
             <p>
-                Received the Performance Recognition at Mahendra Next Wealth
-                for consistently delivering high-quality performance,
-                maintaining accuracy standards, and contributing to
-                organizational objectives.
+                I'm open to opportunities in data analytics,
+                quality analysis, process operations and
+                related roles.
             </p>
-        </div>
-    </div>
-</section>
-    <section id="contact" class="section contact">
-    <p class="eyebrow">CONTACT</p>
-```
-<h2>Let's<span>connect</span></h2>
-<p>
-    I'm open to opportunities in data analytics, quality analysis,
-    process operations and related roles.
-</p>
-<div class="contact-buttons">
-    <a class="btn primary"
-       href="mailto:surenthiran017@gmail.com">
-        <i class="fa-solid fa-envelope"></i>
-        Email
-    </a>
-    <a class="btn secondary"
-       href="https://www.linkedin.com/in/surenthiran-v-658022291/"
-       target="_blank"
-       rel="noopener noreferrer">
-        <i class="fa-brands fa-linkedin"></i>
-        LinkedIn
-    </a>
-    <a class="btn secondary"
-       href="https://github.com/surenthiran017"
-       target="_blank"
-       rel="noopener noreferrer">
-        <i class="fa-brands fa-github"></i>
-        GitHub
-    </a>
-</div>
-</section>
-</main>
-  <footer>
-    <p>© <span id="year"></span> Surenthiran V. Built with HTML, CSS & JavaScript.</p>
-  </footer>
-  <script src="script.js"></script>
+            <div class="contact-buttons">
+                <a class="btn primary"
+                    href="mailto:surenthiran017@gmail.com">
+
+                    <i class="fa-solid fa-envelope"></i>
+                    Email
+                </a>
+                <a class="btn secondary"
+                    href="https://www.linkedin.com/in/surenthiran-v-658022291/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin"></i>
+                    LinkedIn</a>
+                <a class="btn secondary"
+                    href="https://github.com/surenthiran017"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © <span id="year"></span>
+            Surenthiran V.
+            Built with HTML, CSS & JavaScript.
+        </p>
+    </footer>
+    <!-- ================= PARTICLES JS ================= -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <!-- Your JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
