@@ -659,18 +659,61 @@ font-size:14px;
 
 /* ================= CONTACT ================= */
 
+/* ================= CONTACT ================= */
 .contact{
-text-align:center;
+    text-align:center;
 }
 
 .contact>p:not(.eyebrow){
-max-width:600px;
-margin:0 auto;
-color:var(--muted);
+    max-width:600px;
+    margin:0 auto;
+    color:var(--muted);
 }
 
+/* Contact Buttons */
+
 .contact-buttons{
-justify-content:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+    flex-wrap:wrap;
+    margin-top:28px;
+}
+
+.contact-buttons .btn{
+    gap:9px;
+    min-width:130px;
+}
+
+.contact-buttons i{
+    font-size:17px;
+    transition:.3s;
+}
+
+.contact-buttons .secondary i{
+    font-size:19px;
+}
+
+.contact-buttons .btn:hover i{
+    transform:scale(1.15);
+}
+
+/* Email Button */
+
+.contact-buttons .primary{
+    box-shadow:0 10px 30px rgba(56,189,248,.15);
+}
+
+.contact-buttons .primary:hover{
+    box-shadow:0 15px 40px rgba(56,189,248,.30);
+}
+
+/* LinkedIn & GitHub */
+
+.contact-buttons .secondary:hover{
+    border-color:rgba(56,189,248,.5);
+    background:rgba(56,189,248,.06);
 }
 
 /* ================= FOOTER ================= */
