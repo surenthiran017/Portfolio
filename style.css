@@ -699,8 +699,8 @@ section h2::after {
 /* PROJECTS */
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
 }
 
 .project-card {
